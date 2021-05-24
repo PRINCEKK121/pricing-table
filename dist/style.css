@@ -1,0 +1,128 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 4rem 0 4rem;
+  padding-top: 1.5rem 0 1.5rem;
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 5rem;
+}
+
+header:after {
+  content: "";
+  display: block;
+  border-bottom: 0.1rem solid #efefef;
+  width: 20%;
+  margin: 4rem auto;
+}
+
+.container h1 {
+  font-size: 4rem;
+}
+
+.container p {
+  font-size: 3rem;
+  color: #a09b9b;
+}
+
+.plan {
+  width: 30%;
+  display: inline-block;
+  box-shadow: 0.5rem 0.5rem 1.4rem 0.5rem #ccc;
+  border-radius: 4rem 4rem 0 0;
+  margin-right: 2%;
+  transition: transform 0.2s;
+  -webkit-transform: translateZ(0);
+}
+
+.plan:hover {
+  transform: scale(1.1);
+}
+
+.card-header {
+  height: 25rem;
+  border-radius: 4rem 4rem 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 14rem;
+}
+
+.card-header-1 {
+  background-image: url('images/java.jpg');
+}
+
+.card-header-2 {
+  background-image: url('images/js.png');
+}
+
+.card-header-3 {
+  background-image: url('images/c.jpg');
+}
+
+.card-body h2 {
+  padding-top: 2.5rem;
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #2584FF;
+}
+
+.list {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #efefef;
+}
+
+.list-item {
+  text-align: left;
+  padding-left: 2.5rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.list-item span {
+  font-size: 1.4rem;
+  padding-right: 2rem;
+  color: #7BE4C8;
+}
+
+button {
+  font-size: 1.9rem;
+  width: 90%;
+  padding: 1.5rem;
+  border: 1px solid #2584FF;
+  color: #2584FF;
+  border-radius: 20rem;
+  background-color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 2.5rem 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+  background: #2584FF;
+  color: #fff;
+}
+
